@@ -34,7 +34,6 @@ bin/
 out/
 logs/
 target/
-config/
 .properties
 .classpath
 .project
