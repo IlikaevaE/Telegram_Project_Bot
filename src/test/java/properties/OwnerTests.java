@@ -11,7 +11,7 @@ import static java.lang.String.format;
 public class OwnerTests {
     CredentialsConfig config = ConfigFactory.create(CredentialsConfig.class);
     @Test
-    @Tag("owner_test")
+    @Tag("owner")
     void someTest1() {
         String login = config.login();
         String password = config.password();
